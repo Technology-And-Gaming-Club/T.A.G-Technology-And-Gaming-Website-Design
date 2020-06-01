@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Anurati';
+    src: url("Anurati-Regular.otf");
+}
+body{
+	background-color: black;
+	color: white;
+}
+.head{
+	font-family: Anurati;
+	font-size: 150%;
+}
+.tag{
+	color: orange;
+}
+.logo img{
+	width: 80%;
+}
+header{
+	width: 70%;
+	margin: 0 auto;
+	vertical-align: top;
+	justify-content: space-between;
+	margin-top: 5%;
+	display: flex;
+
+}

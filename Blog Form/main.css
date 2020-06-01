@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Anurati';
+    src: url("Anurati-Regular.otf");
+}
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: 'Raleway';
+}
+.header{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	vertical-align: top;
+	justify-content: space-between;
+	margin-top: 2%;
+}
+span.tag{
+	font-family: Anurati;
+	font-size: 170%;
+}
+span.name{
+	color: #ffaa00;
+}
+.logo img{
+	width: 90%;
+}
+label{
+	clear:both;
+	float: left;
+	width: 30%;
+	text-align: left;
+	margin-bottom: 2%;
+}
+span.bs{
+	color:#ffaa00;
+}
+.direction{
+	margin-top: 3%;
+}
+p.direction{
+	font-size: 120%;
+}
+form{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+input{
+	float: right;
+	text-align: left;
+	width: 60%; 
+	margin-bottom: 2%;
+}
+textarea{
+	clear: both;
+	text-align: left;
+	margin-bottom: 2%;
+}
+input.submit{
+	width: 8%;
+	text-align: center;
+	position: absolute;
+	left: 46%;
+	top: 137%;
+	background-color: #ffaa00;
+	border:0;
+	height: 7%;
+	font-size: 130%;
+	border-radius: 40%;
+	font-family: Raleway;
+	cursor: pointer;
+}
