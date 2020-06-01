@@ -12,7 +12,7 @@
         $mail->isSMTP();
         $mail->Host = "smtp.gmail.com";
         $mail->SMTPAuth = true;
-        $mail->Username = "<LESSSECURE@EMAIL.COM>";
+        $mail->Username = "<YOUR@EMAIL.COM>";
         $mail->Password = '<YOUR-PASSWORD>';
         $mail->Port = 465;
         $mail->SMTPSecure = "ssl";
