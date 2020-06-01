@@ -8,7 +8,7 @@
 - PHP [ Backend Mailer Framework ]
 - Apache2 [ Web-Server On Ubuntu ]
 
-Execute:
+Execute:-
 ```sh
 $ sudo apt-get update && sudo apt-get upgrade
 
