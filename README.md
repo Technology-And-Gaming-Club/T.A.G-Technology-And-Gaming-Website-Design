@@ -16,8 +16,6 @@ $ apt-get install php-pear php7.0-dev php7.0-zip php7.0-curl php7.0-gd php7.0-my
 
 $ sudo apt-get install apache2
 
-// Copy all the content of the files on ubuntu /var/www/html
-
 $ sudo service apache2 restart
 ```
 --------------------------------------------------------------------------------------------------
