@@ -425,6 +425,6 @@ ___________    _____        ________
     <script src="js/jquery-modal-video.min.js"></script>
     <script src="js/validator.min.js"></script>
     <script src="js/helloworld.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFhL18vb-_apL2XvN9gMw6BLBKS-UGO-E"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY"></script>
 </body>
 </html>
