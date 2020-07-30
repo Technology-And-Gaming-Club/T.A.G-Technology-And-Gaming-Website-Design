@@ -6,6 +6,7 @@ ___________    _____        ________
   |____| /\ \____|__  / /\ \______  /
          \/         \/  \/        \/ 
 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +46,7 @@ ___________    _____        ________
     <!-- Video Lightbox -->
     <link href="css/modal-video.min.css" rel="stylesheet">
     <!-- Main Stylesheet -->
-    <link href="css/nstyle.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   
 </head>
 <body>
@@ -72,12 +73,8 @@ ___________    _____        ________
                         <li class="nav-item active">
                             <a class="nav-link" href="#about">ABOUT</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#games">GAMES</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#team">BOARD</a>
-                        </li>
+                        
+                       
                         <li class="nav-item">
                             <a class="nav-link" href="#events">EVENTS</a>
                         </li>
@@ -137,111 +134,7 @@ ___________    _____        ________
         
         <!-- /// TEAM SECTION /// -->
         <div id="team" class="large-margin">
-            <a href="team"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">THE <span class="colored">TEAM</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row medium-margin">
-                <div class="col-md-11 tiny-margin">
-                    <p></p> <!-- Team Description Here For ( The Team Section ) -->
-                </div>
-                <div id="full-row" class="row text-center">
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/Chairperson.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">RITWIK</p>
-                        <p class="subtle">CHAIR PERSON</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/Vice-Chair.jpg" class="img-fluid b-lazy" alt="teammember">
-                                               
-                        </figure>
-                        <p class="team-name">SHASHWAT</p>
-                        <p class="subtle">VICE CHAIR</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/Gen-Sec.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">ARIJEET</p>
-                        <p class="subtle">GENERAL SECRETARY</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/Tech-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">SAUMYA</p>
-                        <p class="subtle">TECHNICAL HEAD</p>
-                    </div>
-                </div>
-                <div id="full-row" class="row text-center">
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/PR-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">YASHVARDHAN</p>
-                        <p class="subtle">PUBLIC RELATION HEAD</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/Operations-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">SARTHAK</p>
-                        <p class="subtle">OPERATIONS HEAD</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/TAG-Projects-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">TANMAY</p>
-                        <p class="subtle">TAG PROJECTS HEAD</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/Tech-Mentor.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">GIRISH</p>
-                        <p class="subtle">TECH MENTOR</p>
-                    </div>
-                </div>
-                <div id="full-row" class="row text-center">
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/Design-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">HARIKA</p>
-                        <p class="subtle">DESIGN HEAD</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/Finance-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">ABHISHEK</p>
-                        <p class="subtle">FINANCE HEAD</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/Core-Mentor.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">CHINMAY</p>
-                        <p class="subtle">CORE MENTOR</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="board/box1/Events-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">SHIVAUM</p>
-                        <p class="subtle">EVENTS HEAD</p>
-                    </div>
-                </div>
-            </div>
+            
         
         <div id="events" class="large-margin">
             <div class="row heading tiny-margin">
@@ -259,7 +152,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/VGL.jpg" data-src="images/VGL.jpg" class="img-fluid b-lazy" alt="" >
                             <figcaption class="event-caption">
-                                <p>"VIT Gamers League is a 3-day nonstop gaming tournament conducted during the days of Riviera. Hundreds of participants showcase their unique talent and battle it out to be throned as the Champions and claim a lucrtative prize pool. Do you have a zeal to win? Do you want some adrenaline rushing action? Then look nowhere else, this is where you need to be."</p>
+                                <p>â€œVIT Gamers League is a 3-day nonstop gaming tournament conducted during the days of Riviera. Hundreds of participants showcase their unique talent and battle it out to be throned as the Champions and claim a lucrtative prize pool. Do you have a zeal to win? Do you want some adrenaline rushing action? Then look nowhere else, this is where you need to be.â€</p>
                                 
                             </figcaption>
                         </figure>
@@ -270,7 +163,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/GAT.jpg" data-src="images/GAT.jpg" class="img-fluid b-lazy" alt="">
                             <figcaption class="event-caption">
-                               <p>"Game-A-Thon is the most awaited E-Sports tournament conducted during the days of GraVITas. It brings together the gaming community and provides a platform for participants to test their mettle against their opponents. With hundreds of participants and a massive prize pool this is an event you would not want to miss."</p> 
+                               <p>â€œGame-A-Thon is the most awaited E-Sports tournament conducted during the days of GraVITas. It brings together the gaming community and provides a platform for participants to test their mettle against their opponents. With hundreds of participants and a massive prize pool this is an event you would not want to miss.â€</p> 
                                 
                             </figcaption>
                         </figure>
@@ -279,7 +172,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/Gamescon.jpg" data-src="images/gamescon.jpg" class="img-fluid b-lazy" alt="">
                             <figcaption class="event-caption">
-                                <p>"Gamescon is an interaction event hosted by TAG where students are shown what TAG is all about. All the latest trends in the fields of Gaming and Technology are thoroughly displayed and discussed. The most recent iteration of the event was in collaboration with MSI and Unity which witnessed over 250+ participants."</p>
+                                <p>â€œGamescon is an interaction event hosted by TAG where students are shown what TAG is all about. All the latest trends in the fields of Gaming and Technology are thoroughly displayed and discussed. The most recent iteration of the event was in collaboration with MSI and Unity which witnessed over 250+ participants.â€</p>
                                 
                             </figcaption>
                         </figure>
@@ -292,7 +185,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/drug abuse.jpg" data-src="images/drug abuse.jpg" class="img-fluid b-lazy" alt="">
                             <figcaption class="event-caption">
-                                <p>"We all have seen how harmful drugs can be. Take the initiative and join us at a workshop conducted on substance abuse to learn more about the side effects of this practice and prevent it from spreading around us."</p> 
+                                <p>We all have seen how harmful drugs can be. Take the initiative and join us at a workshop conducted on substance abuse to learn more about the side effects of this practice and prevent it from spreading around us.</p> 
                                 
                             </figcaption>
                         </figure>
@@ -475,6 +368,8 @@ ___________    _____        ________
                         <ul class="social-links"> <!-- Social Media Icons -->
                             <li><a href="https://www.facebook.com/tagvitu/"><i class="fa fa-facebook fa-lg icon-social"></i></a></li>
                             <li><a href="https://www.instagram.com/tagclub.vit/?hl=en"><i class="fa fa-instagram fa-lg icon-social"></i></a>
+                            <li><a href="https://www.youtube.com/channel/UCxBTQ-C5gIUrmNqdT1s4csQ"><i class="fa fa-youtube fa-lg icon-social"></i></li></a>
+                            <li><a href="https://www.linkedin.com/company/tag-club-vit/"><i class="fa fa-linkedin fa-lg icon-social"></i></li></a>
                         </ul>
 
                     </div>
@@ -486,26 +381,24 @@ ___________    _____        ________
     
     <!-- //// SCRIPTS //// -->
 	<script type="text/javascript">
-        function sendEmail() {
+        function sendEmail() 
+	{
             var name = $("#name");
             var email = $("#email");
             var subject = $("#subject");
             var body = $("#body");
-            if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
-                $.ajax({
-                   url: 'sendEmail.php',
-                   method: 'POST',
-                   dataType: 'json',
-                   data: {
-                       name: name.val(),
-                       email: email.val(),
-                       subject: subject.val(),
-                       body: body.val()
-                   }, success: function (response) {
-                        if (response.status == "success")
-                            alert('Email Has Been Sent!');
-                        else {
-                            alert('Please Try Again!');
+
+            if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) 
+            {
+                $.ajax({url: 'sendEmail.php', method: 'POST', dataType: 'json', data: { name: name.val(), email: email.val(), subject: subject.val(), body: body.val()}, success: function (response) 
+		{
+                        if (response.Status == "success")
+			{
+				alert('We Will Get Back To You Shortly!');
+			}  
+                        else 
+			{
+                            alert('Failed To Send The Mail!');
                             console.log(response);
                         }
                    }
@@ -531,7 +424,7 @@ ___________    _____        ________
     <script src="js/jquery-modal-video.min.js"></script>
     <script src="js/validator.min.js"></script>
     <script src="js/strider.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64kJJiSynOc9ZqkNMOyl94cvsw5Z2uno"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFhL18vb-_apL2XvN9gMw6BLBKS-UGO-E"></script>
  
 </body>
 </html>
