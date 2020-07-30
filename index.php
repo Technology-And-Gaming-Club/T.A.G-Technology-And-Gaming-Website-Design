@@ -152,7 +152,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/VGL.jpg" data-src="images/VGL.jpg" class="img-fluid b-lazy" alt="" >
                             <figcaption class="event-caption">
-                                <p>â€œVIT Gamers League is a 3-day nonstop gaming tournament conducted during the days of Riviera. Hundreds of participants showcase their unique talent and battle it out to be throned as the Champions and claim a lucrtative prize pool. Do you have a zeal to win? Do you want some adrenaline rushing action? Then look nowhere else, this is where you need to be.â€</p>
+                                <p>“VIT Gamers League is a 3-day nonstop gaming tournament conducted during the days of Riviera. Hundreds of participants showcase their unique talent and battle it out to be throned as the Champions and claim a lucrtative prize pool. Do you have a zeal to win? Do you want some adrenaline rushing action? Then look nowhere else, this is where you need to be.”</p>
                                 
                             </figcaption>
                         </figure>
@@ -163,7 +163,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/GAT.jpg" data-src="images/GAT.jpg" class="img-fluid b-lazy" alt="">
                             <figcaption class="event-caption">
-                               <p>â€œGame-A-Thon is the most awaited E-Sports tournament conducted during the days of GraVITas. It brings together the gaming community and provides a platform for participants to test their mettle against their opponents. With hundreds of participants and a massive prize pool this is an event you would not want to miss.â€</p> 
+                               <p>“Game-A-Thon is the most awaited E-Sports tournament conducted during the days of GraVITas. It brings together the gaming community and provides a platform for participants to test their mettle against their opponents. With hundreds of participants and a massive prize pool this is an event you would not want to miss.”</p> 
                                 
                             </figcaption>
                         </figure>
@@ -172,7 +172,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/Gamescon.jpg" data-src="images/gamescon.jpg" class="img-fluid b-lazy" alt="">
                             <figcaption class="event-caption">
-                                <p>â€œGamescon is an interaction event hosted by TAG where students are shown what TAG is all about. All the latest trends in the fields of Gaming and Technology are thoroughly displayed and discussed. The most recent iteration of the event was in collaboration with MSI and Unity which witnessed over 250+ participants.â€</p>
+                                <p>“Gamescon is an interaction event hosted by TAG where students are shown what TAG is all about. All the latest trends in the fields of Gaming and Technology are thoroughly displayed and discussed. The most recent iteration of the event was in collaboration with MSI and Unity which witnessed over 250+ participants.”</p>
                                 
                             </figcaption>
                         </figure>
@@ -312,25 +312,25 @@ ___________    _____        ________
 			<form id="contactForm" data-toggle="validator">
                             <div class="form-group">
                                 <!-- Name Field -->
-                                <input id="name" placeholder="Name" class="form-control" data-error="Name is required">
+                                <input id="name" placeholder="Name" class="form-control" data-error="Name is required" required>
                                 <div class="help-block with-errors"></div>
                             </div>
 
                             <div class="form-group">
                                 <!-- Email Field -->
-                                <input id="email" placeholder="Email" class="form-control" data-error="Email is required">
+                                <input type="email" id="email" placeholder="Email" class="form-control" data-error="Email is required" required>
                                 <div class="help-block with-errors"></div>
                             </div>
 
 			    <div class="form-group">
                                 <!-- Subject Field -->
-                                <input id="subject" placeholder="Subject" class="form-control" data-error="Subject is required">
+                                <input id="subject" placeholder="Subject" class="form-control" data-error="Subject is required" required>
                                 <div class="help-block with-errors"></div>
                             </div>
 
                             <div class="form-group">
                                 <!-- Message Field -->
-                                <textarea class="form-control" id="body" placeholder="Email Body" required data-error="Message cannot be empty"></textarea>
+                                <textarea class="form-control" id="body" placeholder="Message Body" required data-error="Message cannot be empty" required></textarea>
                                 <p class="subtle">* required field</p>
                                 <div class="help-block with-errors"></div>
                                 <!-- Submit Button -->
@@ -395,6 +395,7 @@ ___________    _____        ________
                         if (response.Status == "success")
 			{
 				alert('We Will Get Back To You Shortly!');
+				document.getElementById("contactForm").reset();
 			}  
                         else 
 			{
@@ -423,8 +424,7 @@ ___________    _____        ________
     <script src="js/lightbox.min.js"></script>
     <script src="js/jquery-modal-video.min.js"></script>
     <script src="js/validator.min.js"></script>
-    <script src="js/strider.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
- 
+    <script src="js/helloworld.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFhL18vb-_apL2XvN9gMw6BLBKS-UGO-E"></script>
 </body>
 </html>
